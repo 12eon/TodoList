@@ -34,7 +34,7 @@ function TodoHead() {
     <TodoHeadBlock>
       <h1>2022년 1월 6일</h1>
       <div className="day">목요일</div>
-      <div className="tasks-left">할 일 2개 남음</div>
+      <div className="tasks-left">할 일 {}개 남음</div>
     </TodoHeadBlock>
   );
 }
